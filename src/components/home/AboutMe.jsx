@@ -36,10 +36,11 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   return (
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
-        <div className="col-5 d-none d-lg-block align-self-center">
+        {/* <div className="col-5 d-none d-lg-block align-self-center"> */}
+        <div className="col-lg-5 col-sm- px-md-1 d-flex align-items-center justify-content-center">
           {showPic && (
             <img
-              className="border border-secondary rounded-circle"
+              className="border border-secondary rounded-circle img-fluid"
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize}
@@ -59,6 +60,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 rel="noreferrer noopener"
                 role="button"
                 aria-label="Resume/CV"
+                download={'Himal_Midun_resume.pdf'}
               >
                 Resume
               </a>

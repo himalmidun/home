@@ -16,7 +16,7 @@ const GetInTouch = ({ heading, message, email }) => {
           rel="noopener noreferrer" 
           className="text-decoration-none text-success"
         >
-          <i className="fab fa-whatsapp" style={{ fontSize: "30px", marginRight: "8px" }}></i> Text me at WhatsApp
+          <i className="fab fa-whatsapp" style={{ fontSize: "30px", marginRight: "8px" }}></i> Text me on WhatsApp
         </a>
       </p>
       
