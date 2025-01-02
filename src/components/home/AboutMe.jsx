@@ -60,7 +60,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 rel="noreferrer noopener"
                 role="button"
                 aria-label="Resume/CV"
-                download={'Himal_Midun_resume.pdf'}
+                download="Himal_Midun_resume.pdf"
               >
                 Resume
               </a>
