@@ -32,6 +32,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   }, [link]);
 
 
+  const downloadFilename = "Himal_Midun_resume.pdf";
 
   return (
     <Jumbotron id="aboutme" className="m-0">
@@ -57,10 +58,10 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 className="btn btn-outline-dark btn-lg"
                 href={resume}
                 // target="_blank"
-                rel="noreferrer noopener"
+                // rel="noreferrer noopener"
                 role="button"
                 aria-label="Resume/CV"
-                download="Himal_Midun_resume.pdf"
+                download={downloadFilename}
               >
                 Resume
               </a>
