@@ -57,7 +57,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               <a
                 className="btn btn-outline-dark btn-lg"
                 // href={resume}
-                href="/myresume.pdf"
+                href="/Himal_Midun_resume.pdf"
                 // target="_blank"
                 // rel="noreferrer noopener"
                 role="button"

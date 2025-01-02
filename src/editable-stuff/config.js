@@ -56,7 +56,7 @@ const about = {
   message:
     "My name is Himal Midun. I’m an undergraduate from Pokhara University pursuing a degree in Software Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
   // resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-  resume:"/dummy",
+  resume:"/dummy", //it is not actual link to resume, the actual link is directly provided to href in about me section
 };
 
 // PROJECTS SECTION
