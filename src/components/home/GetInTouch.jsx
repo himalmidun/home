@@ -6,7 +6,7 @@ const GetInTouch = ({ heading, message, email }) => {
     <>
       <h2 className="display-4 pb-3 text-center">{heading}</h2>
       <p className="lead text-center pb-3">
-        {message}, <a className="text-decoration-none" href={`mailto:${email}`}>{email}</a>.
+        {message} <a className="text-decoration-none" href={`mailto:${email}`}> <img src="gmail.png" alt="gmail icon" width={27} height={27} style={{ position: "relative" ,marginLeft: 3, marginRight:3, top: -3}} /> Himal Midun</a>.
         <br />
         or
         <br/>
