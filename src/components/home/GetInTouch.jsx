@@ -1,7 +1,7 @@
 import React from "react";
 
 const GetInTouch = ({ heading, message, email }) => {
-  const whatsappLink = `https://wa.me/${+9779811591871}`
+  const whatsappLink = `https://wa.me/${+9779867853558}`
   return (
     <>
       <h2 className="display-4 pb-3 text-center">{heading}</h2>
